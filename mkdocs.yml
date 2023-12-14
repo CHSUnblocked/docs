@@ -1,2 +1,5 @@
+site_name: CHSUnblocked
+site_url: https://chsunblocked.github.io/docs
+
 theme:
   name: material
