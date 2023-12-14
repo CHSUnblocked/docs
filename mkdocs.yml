@@ -3,6 +3,8 @@ site_url: https://chsunblocked.github.io/docs
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -10,18 +12,28 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: yellow
+      # primary: blue
+      # accent: yellow
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: yellow
+      # primary: black
+      # accent: yellow
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - header.autohide
+
+plugins:
+  - search
