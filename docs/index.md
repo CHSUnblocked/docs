@@ -1,2 +1,2 @@
-# Testing
-This is an example page
+# Home
+Welcome to the CHSUnblocked docs
